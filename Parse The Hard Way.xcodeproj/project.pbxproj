@@ -21,6 +21,16 @@
 		6FBDE8C1184B8524003F0CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8A3184B8524003F0CA4 /* UIKit.framework */; };
 		6FBDE8C9184B8524003F0CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FBDE8C7184B8524003F0CA4 /* InfoPlist.strings */; };
 		6FBDE8CB184B8524003F0CA4 /* Parse_The_Hard_WayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDE8CA184B8524003F0CA4 /* Parse_The_Hard_WayTests.m */; };
+		6FBDE8D5184B8596003F0CA4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8D4184B8595003F0CA4 /* Parse.framework */; };
+		6FBDE8D7184B85B8003F0CA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8D6184B85B8003F0CA4 /* AudioToolbox.framework */; };
+		6FBDE8D9184B85BF003F0CA4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8D8184B85BF003F0CA4 /* CFNetwork.framework */; };
+		6FBDE8DB184B85CB003F0CA4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8DA184B85CB003F0CA4 /* CoreLocation.framework */; };
+		6FBDE8DD184B85D5003F0CA4 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8DC184B85D5003F0CA4 /* libz.1.1.3.dylib */; };
+		6FBDE8DF184B85DC003F0CA4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8DE184B85DC003F0CA4 /* MobileCoreServices.framework */; };
+		6FBDE8E1184B85E1003F0CA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8E0184B85E1003F0CA4 /* QuartzCore.framework */; };
+		6FBDE8E3184B85E9003F0CA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8E2184B85E9003F0CA4 /* Security.framework */; };
+		6FBDE8E5184B85F0003F0CA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8E4184B85F0003F0CA4 /* StoreKit.framework */; };
+		6FBDE8E7184B85F9003F0CA4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBDE8E6184B85F9003F0CA4 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		6FBDE8C6184B8524003F0CA4 /* Parse The Hard WayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parse The Hard WayTests-Info.plist"; sourceTree = "<group>"; };
 		6FBDE8C8184B8524003F0CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FBDE8CA184B8524003F0CA4 /* Parse_The_Hard_WayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parse_The_Hard_WayTests.m; sourceTree = "<group>"; };
+		6FBDE8D4184B8595003F0CA4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6FBDE8D6184B85B8003F0CA4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6FBDE8D8184B85BF003F0CA4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6FBDE8DA184B85CB003F0CA4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6FBDE8DC184B85D5003F0CA4 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		6FBDE8DE184B85DC003F0CA4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6FBDE8E0184B85E1003F0CA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FBDE8E2184B85E9003F0CA4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6FBDE8E4184B85F0003F0CA4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6FBDE8E6184B85F9003F0CA4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBDE8E7184B85F9003F0CA4 /* SystemConfiguration.framework in Frameworks */,
+				6FBDE8E5184B85F0003F0CA4 /* StoreKit.framework in Frameworks */,
+				6FBDE8E3184B85E9003F0CA4 /* Security.framework in Frameworks */,
+				6FBDE8E1184B85E1003F0CA4 /* QuartzCore.framework in Frameworks */,
+				6FBDE8DF184B85DC003F0CA4 /* MobileCoreServices.framework in Frameworks */,
+				6FBDE8DD184B85D5003F0CA4 /* libz.1.1.3.dylib in Frameworks */,
+				6FBDE8DB184B85CB003F0CA4 /* CoreLocation.framework in Frameworks */,
+				6FBDE8D9184B85BF003F0CA4 /* CFNetwork.framework in Frameworks */,
+				6FBDE8D7184B85B8003F0CA4 /* AudioToolbox.framework in Frameworks */,
 				6FBDE8A2184B8524003F0CA4 /* CoreGraphics.framework in Frameworks */,
 				6FBDE8A4184B8524003F0CA4 /* UIKit.framework in Frameworks */,
+				6FBDE8D5184B8596003F0CA4 /* Parse.framework in Frameworks */,
 				6FBDE8A0184B8524003F0CA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +131,16 @@
 		6FBDE89E184B8524003F0CA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FBDE8E6184B85F9003F0CA4 /* SystemConfiguration.framework */,
+				6FBDE8E4184B85F0003F0CA4 /* StoreKit.framework */,
+				6FBDE8E2184B85E9003F0CA4 /* Security.framework */,
+				6FBDE8E0184B85E1003F0CA4 /* QuartzCore.framework */,
+				6FBDE8DE184B85DC003F0CA4 /* MobileCoreServices.framework */,
+				6FBDE8DC184B85D5003F0CA4 /* libz.1.1.3.dylib */,
+				6FBDE8DA184B85CB003F0CA4 /* CoreLocation.framework */,
+				6FBDE8D8184B85BF003F0CA4 /* CFNetwork.framework */,
+				6FBDE8D6184B85B8003F0CA4 /* AudioToolbox.framework */,
+				6FBDE8D4184B8595003F0CA4 /* Parse.framework */,
 				6FBDE89F184B8524003F0CA4 /* Foundation.framework */,
 				6FBDE8A1184B8524003F0CA4 /* CoreGraphics.framework */,
 				6FBDE8A3184B8524003F0CA4 /* UIKit.framework */,
@@ -379,6 +419,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eliotarntz/Desktop/Parse\\ The\\ Hard\\ Way",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse The Hard Way/Parse The Hard Way-Prefix.pch";
 				INFOPLIST_FILE = "Parse The Hard Way/Parse The Hard Way-Info.plist";
@@ -392,6 +436,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eliotarntz/Desktop/Parse\\ The\\ Hard\\ Way",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse The Hard Way/Parse The Hard Way-Prefix.pch";
 				INFOPLIST_FILE = "Parse The Hard Way/Parse The Hard Way-Info.plist";
